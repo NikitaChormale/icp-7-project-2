@@ -55,6 +55,7 @@
               <img src="./../image/5392715.png" class="btn-increase" onclick="inc1()"/>
             </div>
             <button class="btn-buy-now">Buy Now</button>
+            
           </div>
           <div class="col shadow m-3 p3 rounded border">
             <img src="./../image/kashmiri4.jpeg" class="height d-block mx-auto m-3" />
@@ -204,6 +205,15 @@ function lightMode(){
   bodyElement.className=`theme-light`;
 
 }
+//on off
+function turnon(){
+        const bulbElement = document.getElementById('bulb');
+       bulbElement.src =`sarpan-jpeg`;
+    }
+    function turnoff(){
+        const bulbElement = document.getElementById('bulb');
+        bulbElement.src=`lightbulb-off-png`;
+    }
 
             
 
